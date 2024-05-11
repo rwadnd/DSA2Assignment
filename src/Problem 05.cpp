@@ -41,10 +41,12 @@ int main() {
     // Example usage
     Pair pairs1[] = { {5, 24}, {39, 60}, {15, 28}, {27, 40}, {50, 90} };
     int n1 = sizeof(pairs1) / sizeof(pairs1[0]);
+    cout << "Example 1 Input: " << "{5 24 , 39 60 , 15 28 , 27 40 , 50 90}" << endl;
     cout << "Example 1 Output: " << maxChainLen(pairs1, n1) << endl;
 
     Pair pairs2[] = { {5, 10}, {1, 11} };
     int n2 = sizeof(pairs2) / sizeof(pairs2[0]);
+    cout << "Example 2 Input: " << "{5 10 , 1 11}" << endl;
     cout << "Example 2 Output: " << maxChainLen(pairs2, n2) << endl;
 
     return 0;

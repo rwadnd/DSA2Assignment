@@ -1,4 +1,4 @@
-#How to run the repository:
+# How to run the repository:
 
 1. If you don't have it, you need to [install g++ on you machine](https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/) (for Windows)
 

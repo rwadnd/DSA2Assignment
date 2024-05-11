@@ -52,6 +52,8 @@ vector<string> printPath(int N, vector<vector<int>>& m) {
 
 int main() {
     // Example usage
+    cout << "Example input 1:  {{1, 0, 0, 0}, {1, 1, 0, 1}, {1, 1, 0, 0}, {0, 1, 1, 1}}" << endl;
+    
     vector<vector<int>> maze1 = { {1, 0, 0, 0},
                                  {1, 1, 0, 1},
                                  {1, 1, 0, 0},
@@ -67,7 +69,7 @@ int main() {
         }
         cout << endl;
     }
-
+    cout << endl << "Example input 2:  { {1, 0}, {1, 0} }" << endl;
     vector<vector<int>> maze2 = { {1, 0},
                                  {1, 0} };
     int N2 = 2;

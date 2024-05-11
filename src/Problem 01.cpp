@@ -48,6 +48,7 @@ int main() {
     int start1[] = { 1, 3, 0, 5, 8, 5 };
     int end1[] = { 2, 4, 6, 7, 9, 9 };
     int n1 = sizeof(start1) / sizeof(start1[0]);
+    cout << "Example 1 Input: " << "{1, 3, 0, 5, 8, 5}  {2, 4, 6, 7, 9, 9}" << endl;
     cout << "Example 1 Output: " << maxMeetings(start1, end1, n1) << endl;
 
     int start2[] = { 10, 12, 20 };

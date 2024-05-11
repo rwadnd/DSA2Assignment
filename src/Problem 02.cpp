@@ -48,11 +48,13 @@ int main() {
     Job jobs1[] = { {1, 4, 20}, {2, 1, 10}, {3, 1, 40}, {4, 1, 30} };
     int n1 = sizeof(jobs1) / sizeof(jobs1[0]);
     vector<int> result1 = JobScheduling(jobs1, n1);
+    cout << "Example 1 Input: " << "{(1,4,20),(2,1,10),(3,1,40),(4,1,30)}" << endl;
     cout << "Example 1 Output: " << result1[0] << " " << result1[1] << endl;
 
     Job jobs2[] = { {1, 2, 100}, {2, 1, 19}, {3, 2, 27}, {4, 1, 25}, {5, 1, 15} };
     int n2 = sizeof(jobs2) / sizeof(jobs2[0]);
     vector<int> result2 = JobScheduling(jobs2, n2);
+    cout << "Example 2 Input: " << "{(1,2,100),(2,1,19),(3,2,27),(4,1,25),(5,1,15)}" << endl;
     cout << "Example 2 Output: " << result2[0] << " " << result2[1] << endl;
 
     return 0;
